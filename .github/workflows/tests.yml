@@ -35,6 +35,10 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          # Installed explicitly rather than relied on from requirements.txt:
+          # some of these projects ship zero runtime dependencies on purpose,
+          # so the test runner is a CI concern, not a package requirement.
+          pip install pytest
 
       - name: Run test suite
         run: python -m pytest -q
