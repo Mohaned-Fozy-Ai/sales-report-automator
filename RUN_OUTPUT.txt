@@ -1,0 +1,104 @@
+=== DEMO RUN ===
+
+01:15:01  INFO      reporter.loader: Found 1 file(s) matching 'sample_data/*.csv'
+01:15:01  INFO      reporter.loader:   sample_data/orders_2025.csv -> 750 rows
+01:15:01  INFO      reporter.loader: Total raw records loaded: 750
+01:15:01  INFO      reporter.validate: Validation complete: 600 valid, 150 quarantined
+01:15:01  INFO      reporter.validate: Quarantine file written: output/quarantine.csv (150 rows)
+01:15:01  INFO      reporter.analyze: Analysis complete: net_revenue=76637.67, 6 months, 20 products, 39 anomalies
+01:15:01  INFO      reporter.render_csv: Summary CSV written: output/summary.csv
+01:15:01  INFO      reporter.render_md: Markdown report written: output/report.md
+01:15:01  INFO      reporter.render_html: HTML report written: output/report.html
+Running demo against sample_data/ ...
+Loading: sample_data/*.csv
+Validating 750 rows ...
+  Quarantined 150 rows -> output/quarantine.csv
+  600 rows passed validation.
+Analysing ...
+
+============================================================
+  REPORT COMPLETE
+============================================================
+  Source rows   : 750
+  Valid         : 600
+  Quarantined   : 150
+  Net Revenue   : $76,637.67
+  Total Orders  : 561
+  Avg Order     : $127.73
+  Anomalies     : 39
+  Runtime       : 0.04s  (20,347 rows/s)
+
+  Output files:
+    output/summary.csv
+    output/report.md
+    output/report.html
+    output/quarantine.csv
+============================================================
+
+=== TEST RUN ===
+
+test_anomaly_revenue_drop_detected (tests.test_analyze.TestAnalyze) ... ok
+test_avg_order_value_money_precision (tests.test_analyze.TestAnalyze) ... ok
+test_empty_records_does_not_crash (tests.test_analyze.TestAnalyze) ... analyze() called with zero valid records
+ok
+test_high_value_order_anomaly_detected (tests.test_analyze.TestAnalyze) ... ok
+test_mom_growth_computed (tests.test_analyze.TestAnalyze) ... ok
+test_multiple_months_aggregated (tests.test_analyze.TestAnalyze) ... ok
+test_no_anomaly_for_small_drop (tests.test_analyze.TestAnalyze) ... ok
+test_products_sorted_by_revenue (tests.test_analyze.TestAnalyze) ... ok
+test_refund_reduces_revenue (tests.test_analyze.TestAnalyze) ... ok
+test_single_order_revenue (tests.test_analyze.TestAnalyze) ... ok
+test_top_10_products_capped (tests.test_analyze.TestAnalyze) ... ok
+test_exact_value_unchanged (tests.test_analyze.TestRoundMoney) ... ok
+test_rounds_down (tests.test_analyze.TestRoundMoney) ... ok
+test_rounds_half_up (tests.test_analyze.TestRoundMoney) ... ok
+test_html_report_written (tests.test_integration.TestFullPipeline) ... ok
+test_md_report_written (tests.test_integration.TestFullPipeline) ... ok
+test_months_covered (tests.test_integration.TestFullPipeline) ... ok
+test_pipeline_produces_valid_records (tests.test_integration.TestFullPipeline) ... ok
+test_quarantine_contains_all_bad_categories (tests.test_integration.TestFullPipeline) ... ok
+test_quarantine_csv_written (tests.test_integration.TestFullPipeline) ... ok
+test_revenue_is_positive (tests.test_integration.TestFullPipeline) ... ok
+test_sample_data_exists (tests.test_integration.TestFullPipeline) ... ok
+test_summary_csv_written (tests.test_integration.TestFullPipeline) ... ok
+test_top_products_at_most_10 (tests.test_integration.TestFullPipeline) ... ok
+test_alternative_header_spellings (tests.test_loader.TestBuildColumnMap) ... ok
+test_canonical_headers_map_correctly (tests.test_loader.TestBuildColumnMap) ... ok
+test_case_insensitive (tests.test_loader.TestBuildColumnMap) ... ok
+test_extra_columns_ignored (tests.test_loader.TestBuildColumnMap) ... ok
+test_glob_loads_multiple_files (tests.test_loader.TestLoadFiles) ... ok
+test_loads_basic_csv (tests.test_loader.TestLoadFiles) ... ok
+test_no_files_raises_error (tests.test_loader.TestLoadFiles) ... ok
+test_iso_format (tests.test_loader.TestParseDate) ... ok
+test_uk_format (tests.test_loader.TestParseDate) ... ok
+test_unparseable_returns_none (tests.test_loader.TestParseDate) ... ok
+test_us_dashes (tests.test_loader.TestParseDate) ... ok
+test_us_format (tests.test_loader.TestParseDate) ... ok
+test_comma_thousands (tests.test_loader.TestParseDecimal) ... ok
+test_dollar_sign (tests.test_loader.TestParseDecimal) ... ok
+test_empty_string_returns_none (tests.test_loader.TestParseDecimal) ... ok
+test_euro_sign (tests.test_loader.TestParseDecimal) ... ok
+test_non_numeric_returns_none (tests.test_loader.TestParseDecimal) ... ok
+test_plain_number (tests.test_loader.TestParseDecimal) ... ok
+test_float_string_truncated (tests.test_loader.TestParseQuantity) ... ok
+test_integer_string (tests.test_loader.TestParseQuantity) ... ok
+test_non_numeric_returns_none (tests.test_loader.TestParseQuantity) ... ok
+test_clean_row_passes (tests.test_validate.TestValidationRules) ... ok
+test_duplicate_order_id_quarantined (tests.test_validate.TestValidationRules) ... ok
+test_future_date_quarantined (tests.test_validate.TestValidationRules) ... ok
+test_missing_order_id_quarantined (tests.test_validate.TestValidationRules) ... ok
+test_missing_price_quarantined (tests.test_validate.TestValidationRules) ... ok
+test_negative_price_quarantined (tests.test_validate.TestValidationRules) ... ok
+test_non_numeric_quantity_quarantined (tests.test_validate.TestValidationRules) ... ok
+test_normal_revenue_is_positive (tests.test_validate.TestValidationRules) ... ok
+test_refund_revenue_is_negative (tests.test_validate.TestValidationRules) ... ok
+test_refund_status_sets_is_refund (tests.test_validate.TestValidationRules) ... ok
+test_return_status_sets_is_refund (tests.test_validate.TestValidationRules) ... ok
+test_row_with_multiple_errors_has_all_reasons (tests.test_validate.TestValidationRules) ... ok
+test_unparseable_date_quarantined (tests.test_validate.TestValidationRules) ... ok
+test_year_month_computed_correctly (tests.test_validate.TestValidationRules) ... ok
+
+----------------------------------------------------------------------
+Ran 59 tests in 0.267s
+
+OK

@@ -1,0 +1,146 @@
+"""
+render_md.py — Markdown report renderer.
+
+Business problem: a machine-readable CSV alone does not communicate story —
+the store owner also needs a document they can paste into an email or Notion
+page. This module converts the analytical output into a structured Markdown
+report that reads like a professional business summary.
+"""
+
+import logging
+from datetime import datetime
+from decimal import Decimal
+from pathlib import Path
+from typing import Optional
+
+from reporter.analyze import ReportData
+
+logger = logging.getLogger(__name__)
+
+
+def _fmt_money(value: Decimal) -> str:
+    return f"${value:,.2f}"
+
+
+def _fmt_pct(value: Optional[Decimal]) -> str:
+    if value is None:
+        return "—"
+    sign = "+" if value > 0 else ""
+    return f"{sign}{value:.1f}%"
+
+
+def render_md(report: ReportData, path: str) -> None:
+    """Writes a human-readable Markdown report to *path*."""
+    Path(path).parent.mkdir(parents=True, exist_ok=True)
+    lines: list[str] = []
+    a = lines.append
+
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M")
+
+    a(f"# Sales Report")
+    a(f"")
+    a(f"*Generated: {generated_at}*  ")
+    a(f"*Period: {report.date_range_start} → {report.date_range_end}*  ")
+    a(f"*Source rows: {report.total_raw_rows:,} total · "
+      f"{report.valid_rows:,} valid · "
+      f"{report.quarantined_rows:,} quarantined*")
+    a(f"")
+    a(f"---")
+    a(f"")
+
+    # ------------------------------------------------------------------ #
+    # Executive KPIs
+    # ------------------------------------------------------------------ #
+    a(f"## Executive Summary")
+    a(f"")
+    a(f"| Metric | Value |")
+    a(f"|--------|-------|")
+    a(f"| Net Revenue | **{_fmt_money(report.net_revenue)}** |")
+    a(f"| Total Orders | {report.total_orders:,} |")
+    a(f"| Refunds / Returns | {report.total_refunds:,} ({_fmt_money(report.total_refund_amount)}) |")
+    a(f"| Average Order Value | {_fmt_money(report.avg_order_value)} |")
+    a(f"| Months Covered | {report.months_covered} |")
+    a(f"")
+
+    # ------------------------------------------------------------------ #
+    # Monthly breakdown
+    # ------------------------------------------------------------------ #
+    a(f"## Revenue by Month")
+    a(f"")
+    a(f"| Month | Net Revenue | Orders | Refunds | Avg Order | MoM Growth |")
+    a(f"|-------|-------------|--------|---------|-----------|------------|")
+    for m in report.monthly:
+        a(
+            f"| {m.year_month} "
+            f"| {_fmt_money(m.net_revenue)} "
+            f"| {m.order_count:,} "
+            f"| {m.refund_count} ({_fmt_money(m.refund_amount)}) "
+            f"| {_fmt_money(m.avg_order_value)} "
+            f"| {_fmt_pct(m.mom_growth_pct)} |"
+        )
+    a(f"")
+
+    # ------------------------------------------------------------------ #
+    # Top 10 products
+    # ------------------------------------------------------------------ #
+    a(f"## Top 10 Products by Revenue")
+    a(f"")
+    a(f"| Rank | Product | Revenue | Units | Orders |")
+    a(f"|------|---------|---------|-------|--------|")
+    for i, p in enumerate(report.top_products, 1):
+        a(
+            f"| {i} "
+            f"| {p.product_name} "
+            f"| {_fmt_money(p.total_revenue)} "
+            f"| {p.total_units:,} "
+            f"| {p.order_count:,} |"
+        )
+    a(f"")
+
+    # ------------------------------------------------------------------ #
+    # All products
+    # ------------------------------------------------------------------ #
+    a(f"## All Products")
+    a(f"")
+    a(f"| Product | Revenue | Units | Orders |")
+    a(f"|---------|---------|-------|--------|")
+    for p in report.products:
+        a(
+            f"| {p.product_name} "
+            f"| {_fmt_money(p.total_revenue)} "
+            f"| {p.total_units:,} "
+            f"| {p.order_count:,} |"
+        )
+    a(f"")
+
+    # ------------------------------------------------------------------ #
+    # Anomalies
+    # ------------------------------------------------------------------ #
+    a(f"## Attention — Anomalies Detected")
+    a(f"")
+    if report.anomalies:
+        for anomaly in report.anomalies:
+            a(f"- **[{anomaly.kind}]** {anomaly.description}")
+            a(f"  - {anomaly.detail}")
+    else:
+        a(f"*No anomalies detected.*")
+    a(f"")
+
+    # ------------------------------------------------------------------ #
+    # Data quality
+    # ------------------------------------------------------------------ #
+    a(f"## Data Quality")
+    a(f"")
+    quality_pct = (report.valid_rows / report.total_raw_rows * 100) if report.total_raw_rows else 0
+    a(f"- **{report.valid_rows:,}** rows passed all quality checks "
+      f"({quality_pct:.1f}% of input)")
+    a(f"- **{report.quarantined_rows:,}** rows quarantined — see `output/quarantine.csv` for details")
+    a(f"")
+    a(f"---")
+    a(f"*Report generated by sales-report-automator*")
+
+    output = "\n".join(lines)
+    with open(path, "w", encoding="utf-8") as fh:
+        fh.write(output)
+
+    logger.info("Markdown report written: %s", path)

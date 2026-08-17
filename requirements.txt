@@ -1,0 +1,4 @@
+# Sales Report Automator — standard library only.
+# No third-party packages are required.
+# This file exists to satisfy the portfolio standard and pip install conventions.
+# Run: pip install -r requirements.txt  (installs nothing additional)

@@ -1,0 +1,751 @@
+Order ID,order_date,product_name,quantity,unit_price,status
+ORD-00373,2025-05-04,Webcam 1080p,4,69.99,completed
+ORD-00336,2025-04-12,Monitor Privacy Filter,3,39.99,completed
+ORD-00672,2025-03-15,Cable Management Box,1,-19.99,completed
+ORD-00527,2025-06-09,27-inch Monitor Stand,4,89.99,completed
+ORD-00034,2025-01-15,Mini Wireless Speaker,5,59.99,completed
+ORD-00326,2025-04-08,Mechanical Keyboard TKL,2,129.99,completed
+ORD-00001,2025-01-21,Thermal Paste 5g,2,7.99,completed
+ORD-00032,2025-01-14,Tablet Stand Adjustable,1,22.99,completed
+ORD-00631,2025-05-27,USB-C Hub 7-Port,N/A,49.99,completed
+ORD-00588,2025-06-29,Monitor Privacy Filter,2,39.99,completed
+ORD-00314,2025-04-09,HDMI Cable 2m,1,12.99,completed
+ORD-00021,2025-01-07,HDMI Cable 2m,1,12.99,completed
+ORD-00011,2025-02-04,Noise-Cancelling Headset,1,149.99,completed
+ORD-00052,2025-01-04,Smart Power Strip,5,54.99,completed
+ORD-00078,2025-01-19,Wireless Earbuds Pro,4,79.99,completed
+ORD-00650,2025-02-07,Desk Lamp LED,?,34.99,completed
+ORD-00464,2025-05-07,USB-C Hub 7-Port,4,49.99,completed
+ORD-00123,2025-02-11,Monitor Privacy Filter,4,39.99,completed
+ORD-00233,2025-03-01,HDMI Cable 2m,3,12.99,completed
+ORD-00219,2025-03-21,Tablet Stand Adjustable,4,22.99,completed
+ORD-00446,2025-05-04,Blue Light Glasses,1,29.99,completed
+ORD-00619,2025-06-01,Screen Cleaning Kit,2,,completed
+ORD-00186,2025-03-01,Mini Wireless Speaker,4,59.99,completed
+ORD-00374,2025-05-02,USB-C Hub 7-Port,1,49.99,completed
+ORD-00176,2025-03-03,Screen Cleaning Kit,4,9.99,completed
+ORD-00574,2025-06-12,Tablet Stand Adjustable,3,22.99,completed
+ORD-00132,2025-02-11,Screen Cleaning Kit,3,9.99,completed
+ORD-00234,2025-03-20,Wrist Rest Pad,1,14.99,completed
+ORD-00721,yesterday,Wireless Earbuds Pro,1,79.99,completed
+ORD-00416,2025-05-31,Noise-Cancelling Headset,5,149.99,completed
+ORD-00302,2025-04-23,Portable Charger 20000mAh,5,44.99,completed
+ORD-00367,2025-04-03,Monitor Privacy Filter,4,39.99,completed
+ORD-00607,2025-06-24,Thermal Paste 5g,3,,completed
+ORD-00556,2025-06-09,Tablet Stand Adjustable,5,22.99,completed
+ORD-00272,2025-04-07,27-inch Monitor Stand,5,89.99,completed
+ORD-00533,2025-06-07,Laptop Sleeve 15in,4,24.99,completed
+ORD-00620,2025-05-11,Smart Power Strip,3,,completed
+ORD-00396,2025-05-13,Desk Lamp LED,3,34.99,refunded
+ORD-00181,2025-03-17,Wireless Earbuds Pro,1,79.99,completed
+ORD-00616,2025-02-05,Smart Power Strip,2,,completed
+ORD-00696,2028-07-31,Desk Lamp LED,1,34.99,completed
+ORD-00465,2025-05-22,Desk Lamp LED,2,34.99,completed
+ORD-00020,2025-01-03,Wrist Rest Pad,5,14.99,completed
+ORD-00597,2025-06-18,Screen Cleaning Kit,4,9.99,completed
+ORD-00496,2025-06-29,Laptop Sleeve 15in,4,24.99,completed
+ORD-00449,2025-05-19,Blue Light Glasses,2,29.99,completed
+ORD-00658,2025-02-05,HDMI Cable 2m,1,-12.99,completed
+ORD-00453,2025-05-02,Screen Cleaning Kit,4,9.99,completed
+ORD-00056,2025-01-12,Noise-Cancelling Headset,4,149.99,completed
+ORD-00105,2025-02-22,Desk Lamp LED,1,34.99,completed
+ORD-00370,2025-04-28,Desk Lamp LED,4,34.99,completed
+ORD-00281,2025-04-13,HDMI Cable 2m,5,12.99,completed
+ORD-00312,2025-04-17,Desk Lamp LED,2,34.99,completed
+ORD-00470,2025-05-13,27-inch Monitor Stand,4,89.99,completed
+ORD-00245,2025-03-08,Monitor Privacy Filter,5,39.99,completed
+ORD-00160,2025-02-08,Portable Charger 20000mAh,3,44.99,completed
+ORD-00393,2025-05-06,Cable Management Box,2,19.99,completed
+ORD-00106,2025-02-21,Cable Management Box,1,19.99,completed
+ORD-00674,2025-03-01,Mini Wireless Speaker,1,-59.99,completed
+ORD-00376,2025-05-18,27-inch Monitor Stand,3,89.99,completed
+ORD-00356,2025-04-07,Desk Lamp LED,1,34.99,completed
+ORD-00295,2025-04-19,Monitor Privacy Filter,3,39.99,completed
+ORD-00400,2025-05-26,Mechanical Keyboard TKL,2,129.99,returned
+ORD-00601,2025-04-14,Desk Lamp LED,2,,completed
+ORD-00241,2025-03-29,Screen Cleaning Kit,1,9.99,completed
+ORD-00486,2025-06-03,Desk Lamp LED,1,34.99,completed
+ORD-00675,2025-01-10,Tablet Stand Adjustable,1,-22.99,completed
+ORD-00098,2025-02-06,Screen Cleaning Kit,5,9.99,completed
+ORD-00483,2025-05-20,Wireless Earbuds Pro,5,79.99,completed
+ORD-00561,2025-06-23,Webcam 1080p,3,69.99,completed
+ORD-00482,2025-05-15,27-inch Monitor Stand,3,89.99,completed
+ORD-00559,2025-06-15,27-inch Monitor Stand,3,89.99,completed
+ORD-00720,2025.01.32,Screen Cleaning Kit,1,9.99,completed
+ORD-00638,2025-06-19,Cable Management Box,one,19.99,completed
+ORD-00073,2025-01-21,Webcam 1080p,4,69.99,completed
+ORD-00011,2025-01-22,HDMI Cable 2m,1,12.99,returned
+ORD-00667,2025-01-02,27-inch Monitor Stand,1,-89.99,completed
+ORD-00702,2025.01.32,Smart Power Strip,1,54.99,completed
+ORD-00413,2025-05-07,Mini Wireless Speaker,5,59.99,refunded
+ORD-00114,2025-02-06,HDMI Cable 2m,4,12.99,completed
+ORD-00288,2025-04-15,27-inch Monitor Stand,1,89.99,completed
+ORD-00024,2025-02-17,Ergonomic Mouse,1,64.99,completed
+ORD-00580,2025-06-02,Thermal Paste 5g,2,7.99,completed
+ORD-00065,2025-01-18,Monitor Privacy Filter,4,39.99,completed
+ORD-00135,2025-02-03,Laptop Sleeve 15in,2,24.99,completed
+ORD-00270,2025-04-20,Screen Cleaning Kit,3,9.99,refunded
+ORD-00265,2025-03-18,Webcam 1080p,2,69.99,completed
+ORD-00097,2025-02-12,Ergonomic Mouse,5,64.99,completed
+ORD-00536,2025-06-28,Blue Light Glasses,2,29.99,completed
+ORD-00299,2025-04-08,Desk Lamp LED,1,34.99,completed
+ORD-00352,2025-04-28,Thermal Paste 5g,5,7.99,completed
+ORD-00342,2025-04-02,Tablet Stand Adjustable,5,22.99,completed
+ORD-00502,2025-06-27,Tablet Stand Adjustable,4,22.99,completed
+ORD-00004,2025-03-16,Laptop Sleeve 15in,1,24.99,completed
+ORD-00434,2025-05-31,Smart Power Strip,1,54.99,completed
+ORD-00712,yesterday,Mini Wireless Speaker,1,59.99,completed
+ORD-00112,2025-02-24,Monitor Privacy Filter,5,39.99,completed
+ORD-00238,2025-03-04,Screen Cleaning Kit,2,9.99,refunded
+ORD-00489,2025-06-17,Noise-Cancelling Headset,1,149.99,completed
+ORD-00128,2025-02-08,Mini Wireless Speaker,3,59.99,completed
+ORD-00266,2025-03-06,HDMI Cable 2m,2,12.99,completed
+ORD-00023,2025-01-17,Tablet Stand Adjustable,2,22.99,completed
+ORD-00706,2025/99/99,Smart Power Strip,1,54.99,completed
+ORD-00399,2025-05-26,Laptop Sleeve 15in,5,24.99,completed
+ORD-00018,2025-05-26,Screen Cleaning Kit,1,9.99,completed
+ORD-00550,2025-06-02,Mechanical Keyboard TKL,1,129.99,completed
+ORD-00322,2025-04-29,Wrist Rest Pad,4,14.99,completed
+ORD-00120,2025-02-18,Thermal Paste 5g,3,7.99,completed
+ORD-00517,2025-06-04,Blue Light Glasses,3,29.99,completed
+ORD-00324,2025-04-19,Blue Light Glasses,1,29.99,completed
+ORD-00443,2025-05-28,Thermal Paste 5g,4,7.99,completed
+ORD-00377,2025-05-27,Cable Management Box,1,19.99,completed
+ORD-00514,2025-06-10,Mechanical Keyboard TKL,3,129.99,completed
+ORD-00054,2025-01-13,Smart Power Strip,4,54.99,completed
+ORD-00685,2028-08-26,Ergonomic Mouse,1,64.99,completed
+ORD-00724,not-a-date,Mechanical Keyboard TKL,1,129.99,completed
+ORD-00258,2025-03-18,Wrist Rest Pad,5,14.99,completed
+ORD-00213,2025-03-30,Portable Charger 20000mAh,5,44.99,completed
+ORD-00146,2025-02-05,Noise-Cancelling Headset,4,149.99,completed
+ORD-00457,2025-05-22,Noise-Cancelling Headset,3,149.99,completed
+ORD-00015,2025-01-03,Ergonomic Mouse,3,64.99,completed
+ORD-00319,2025-04-05,Webcam 1080p,5,69.99,completed
+ORD-00031,2025-01-18,Mini Wireless Speaker,3,59.99,completed
+ORD-00474,2025-05-10,Thermal Paste 5g,5,7.99,completed
+ORD-00723,01-JAN,Portable Charger 20000mAh,1,44.99,completed
+ORD-00188,2025-03-24,Desk Lamp LED,4,34.99,completed
+ORD-00493,2025-06-12,Ergonomic Mouse,5,64.99,refunded
+ORD-00207,2025-03-24,Blue Light Glasses,1,29.99,completed
+ORD-00205,2025-03-24,Wireless Earbuds Pro,5,79.99,completed
+ORD-00410,2025-05-23,Desk Lamp LED,3,34.99,completed
+ORD-00191,2025-03-29,Noise-Cancelling Headset,3,149.99,completed
+ORD-00250,2025-03-31,Blue Light Glasses,3,29.99,completed
+ORD-00618,2025-06-07,Wrist Rest Pad,3,,completed
+ORD-00695,2028-11-06,Blue Light Glasses,1,29.99,completed
+ORD-00444,2025-05-08,Laptop Sleeve 15in,2,24.99,completed
+ORD-00594,2025-06-04,Wrist Rest Pad,5,14.99,completed
+ORD-00623,2025-06-22,Cable Management Box,1,,completed
+ORD-00136,2025-02-07,Noise-Cancelling Headset,3,149.99,refunded
+ORD-00126,2025-02-25,Mechanical Keyboard TKL,3,129.99,completed
+ORD-00513,2025-06-18,Screen Cleaning Kit,3,9.99,completed
+ORD-00520,2025-06-09,USB-C Hub 7-Port,1,49.99,completed
+ORD-00466,2025-05-23,Mechanical Keyboard TKL,3,129.99,completed
+ORD-00679,2028-05-16,Blue Light Glasses,1,29.99,completed
+ORD-00497,2025-06-08,Noise-Cancelling Headset,2,149.99,completed
+ORD-00094,2025-02-15,HDMI Cable 2m,3,12.99,completed
+ORD-00292,2025-04-03,Desk Lamp LED,5,34.99,completed
+ORD-00701,yesterday,Smart Power Strip,1,54.99,completed
+ORD-00273,2025-04-30,Smart Power Strip,5,54.99,completed
+ORD-00276,2025-04-24,Blue Light Glasses,1,29.99,completed
+ORD-00008,2025-03-14,Cable Management Box,1,19.99,completed
+ORD-00468,2025-05-08,Cable Management Box,2,19.99,completed
+ORD-00659,2025-06-07,Ergonomic Mouse,1,-64.99,completed
+ORD-00605,2025-04-09,Mechanical Keyboard TKL,3,,completed
+ORD-00002,2025-01-04,Laptop Sleeve 15in,2,24.99,completed
+ORD-00100,2025-02-12,Portable Charger 20000mAh,1,44.99,completed
+ORD-00632,2025-01-05,Portable Charger 20000mAh,one,44.99,completed
+ORD-00707,01-JAN,Mini Wireless Speaker,1,59.99,completed
+ORD-00190,2025-03-22,Cable Management Box,4,19.99,completed
+ORD-00414,2025-05-10,USB-C Hub 7-Port,4,49.99,completed
+ORD-00589,2025-06-12,Cable Management Box,5,19.99,refunded
+ORD-00008,2025-01-05,Blue Light Glasses,3,29.99,completed
+ORD-00102,2025-02-22,Screen Cleaning Kit,5,9.99,completed
+ORD-00278,2025-04-07,Desk Lamp LED,1,34.99,completed
+ORD-00298,2025-04-19,Ergonomic Mouse,3,64.99,completed
+ORD-00651,2025-03-15,USB-C Hub 7-Port,1,-49.99,completed
+ORD-00447,2025-05-31,Desk Lamp LED,2,34.99,completed
+ORD-00017,2025-03-28,Wireless Earbuds Pro,1,79.99,completed
+ORD-00635,2025-05-09,Monitor Privacy Filter,,39.99,completed
+ORD-00220,2025-03-17,Cable Management Box,5,19.99,returned
+ORD-00519,2025-06-05,Monitor Privacy Filter,3,39.99,completed
+ORD-00358,2025-04-15,Wrist Rest Pad,1,14.99,completed
+ORD-00239,2025-03-30,Mechanical Keyboard TKL,4,129.99,completed
+ORD-00647,2025-05-24,Desk Lamp LED,?,34.99,completed
+ORD-00323,2025-04-19,Ergonomic Mouse,4,64.99,completed
+ORD-00362,2025-04-09,Laptop Sleeve 15in,3,24.99,completed
+ORD-00725,32-13-2025,Monitor Privacy Filter,1,39.99,completed
+ORD-00661,2025-01-13,Webcam 1080p,1,-69.99,completed
+ORD-00599,2025-06-28,Wireless Earbuds Pro,1,79.99,completed
+ORD-00218,2025-03-27,Noise-Cancelling Headset,2,149.99,completed
+ORD-00505,2025-06-10,Cable Management Box,3,19.99,completed
+ORD-00242,2025-03-27,Cable Management Box,1,19.99,completed
+ORD-00595,2025-06-12,Webcam 1080p,2,69.99,completed
+ORD-00006,2025-01-08,Ergonomic Mouse,4,64.99,completed
+ORD-00261,2025-03-05,Wrist Rest Pad,3,14.99,completed
+ORD-00622,2025-01-05,Noise-Cancelling Headset,2,,completed
+ORD-00626,2025-06-17,HDMI Cable 2m,,12.99,completed
+ORD-00546,2025-06-21,27-inch Monitor Stand,2,89.99,completed
+ORD-00523,2025-06-04,Thermal Paste 5g,4,7.99,completed
+ORD-00082,2025-01-02,Wrist Rest Pad,3,14.99,completed
+ORD-00714,not-a-date,Blue Light Glasses,1,29.99,completed
+ORD-00179,2025-03-20,USB-C Hub 7-Port,4,49.99,refunded
+ORD-00418,2025-05-19,Cable Management Box,1,19.99,completed
+ORD-00113,2025-02-08,Cable Management Box,2,19.99,completed
+ORD-00025,2025-01-01,Cable Management Box,5,19.99,completed
+ORD-00699,2028-05-06,Portable Charger 20000mAh,1,44.99,completed
+ORD-00429,2025-05-30,Mechanical Keyboard TKL,5,129.99,completed
+ORD-00211,2025-03-06,Noise-Cancelling Headset,2,149.99,completed
+ORD-00134,2025-02-09,Ergonomic Mouse,5,64.99,returned
+ORD-00354,2025-04-08,HDMI Cable 2m,1,12.99,completed
+ORD-00404,2025-05-23,Cable Management Box,2,19.99,completed
+ORD-00480,2025-05-03,Tablet Stand Adjustable,1,22.99,completed
+ORD-00080,2025-01-23,Monitor Privacy Filter,2,39.99,completed
+ORD-00090,2025-02-28,Portable Charger 20000mAh,1,44.99,completed
+ORD-00037,2025-01-26,Noise-Cancelling Headset,2,149.99,completed
+ORD-00350,2025-04-11,Ergonomic Mouse,3,64.99,completed
+ORD-00030,2025-01-23,Wrist Rest Pad,2,14.99,completed
+ORD-00535,2025-06-21,HDMI Cable 2m,3,12.99,completed
+ORD-00463,2025-05-09,Desk Lamp LED,1,34.99,completed
+ORD-00076,2025-01-28,Wrist Rest Pad,2,14.99,completed
+ORD-00027,2025-01-07,Screen Cleaning Kit,4,9.99,completed
+ORD-00269,2025-04-28,Desk Lamp LED,2,34.99,completed
+ORD-00344,2025-04-21,Monitor Privacy Filter,1,39.99,completed
+ORD-00089,2025-02-08,USB-C Hub 7-Port,1,49.99,completed
+ORD-00411,2025-05-16,Mechanical Keyboard TKL,5,129.99,completed
+ORD-00442,2025-05-22,Cable Management Box,5,19.99,completed
+ORD-00568,2025-06-23,Thermal Paste 5g,5,7.99,completed
+ORD-00151,2025-02-18,27-inch Monitor Stand,5,89.99,completed
+ORD-00669,2025-06-17,Monitor Privacy Filter,1,-39.99,completed
+ORD-00345,2025-04-21,Thermal Paste 5g,3,7.99,completed
+ORD-00009,2025-06-14,Blue Light Glasses,1,29.99,completed
+ORD-00313,2025-04-08,Cable Management Box,1,19.99,completed
+ORD-00554,2025-06-05,Mechanical Keyboard TKL,4,129.99,completed
+ORD-00115,2025-02-15,Blue Light Glasses,5,29.99,completed
+ORD-00232,2025-03-30,27-inch Monitor Stand,1,89.99,completed
+ORD-00637,2025-02-23,Smart Power Strip,,54.99,completed
+ORD-00177,2025-03-13,Smart Power Strip,5,54.99,completed
+ORD-00149,2025-02-08,Wrist Rest Pad,4,14.99,completed
+ORD-00143,2025-02-13,Screen Cleaning Kit,2,9.99,completed
+ORD-00133,2025-02-13,Ergonomic Mouse,2,64.99,completed
+ORD-00654,2025-05-03,HDMI Cable 2m,1,-12.99,completed
+ORD-00694,2028-03-19,Noise-Cancelling Headset,1,149.99,completed
+ORD-00057,2025-01-28,Webcam 1080p,3,69.99,returned
+ORD-00067,2025-01-30,USB-C Hub 7-Port,2,49.99,completed
+ORD-00026,2025-01-18,Ergonomic Mouse,3,64.99,completed
+ORD-00586,2025-06-28,27-inch Monitor Stand,1,89.99,completed
+ORD-00255,2025-03-27,Monitor Privacy Filter,3,39.99,completed
+ORD-00111,2025-02-18,Tablet Stand Adjustable,4,22.99,completed
+ORD-00451,2025-05-19,Portable Charger 20000mAh,3,44.99,completed
+ORD-00085,2025-02-25,Monitor Privacy Filter,3,39.99,completed
+ORD-00507,2025-06-26,Blue Light Glasses,4,29.99,completed
+ORD-00525,2025-06-18,Desk Lamp LED,3,34.99,completed
+ORD-00469,2025-05-09,USB-C Hub 7-Port,3,49.99,completed
+ORD-00006,2025-05-26,Screen Cleaning Kit,1,9.99,completed
+ORD-00320,2025-04-24,Smart Power Strip,3,54.99,completed
+ORD-00145,2025-02-15,Mini Wireless Speaker,3,59.99,completed
+ORD-00012,2025-01-24,HDMI Cable 2m,3,12.99,completed
+ORD-00655,2025-02-21,Portable Charger 20000mAh,1,-44.99,completed
+ORD-00166,2025-02-02,Screen Cleaning Kit,3,9.99,completed
+ORD-00381,2025-05-25,Desk Lamp LED,1,34.99,completed
+ORD-00524,2025-06-24,27-inch Monitor Stand,1,89.99,completed
+ORD-00348,2025-04-13,Noise-Cancelling Headset,2,149.99,completed
+ORD-00304,2025-04-02,27-inch Monitor Stand,5,89.99,completed
+ORD-00064,2025-01-15,27-inch Monitor Stand,2,89.99,completed
+ORD-00426,2025-05-19,Ergonomic Mouse,5,64.99,completed
+ORD-00415,2025-05-07,Portable Charger 20000mAh,3,44.99,completed
+ORD-00340,2025-04-28,Ergonomic Mouse,3,64.99,completed
+ORD-00318,2025-04-18,Ergonomic Mouse,4,64.99,completed
+ORD-00019,2025-01-01,Thermal Paste 5g,5,7.99,completed
+ORD-00215,2025-03-28,Monitor Privacy Filter,3,39.99,completed
+ORD-00260,2025-03-05,Screen Cleaning Kit,1,9.99,completed
+ORD-00206,2025-03-29,Mechanical Keyboard TKL,2,129.99,completed
+ORD-00296,2025-04-18,Desk Lamp LED,2,34.99,completed
+ORD-00359,2025-04-05,Wireless Earbuds Pro,1,79.99,refunded
+ORD-00417,2025-05-02,USB-C Hub 7-Port,4,49.99,completed
+ORD-00487,2025-06-18,Tablet Stand Adjustable,5,22.99,completed
+ORD-00603,2025-05-24,Mini Wireless Speaker,1,,completed
+ORD-00375,2025-05-21,Screen Cleaning Kit,2,9.99,returned
+ORD-00130,2025-02-02,Monitor Privacy Filter,5,39.99,completed
+ORD-00477,2025-05-30,Webcam 1080p,4,69.99,completed
+ORD-00309,2025-04-28,27-inch Monitor Stand,5,89.99,completed
+ORD-00332,2025-04-04,Tablet Stand Adjustable,2,22.99,completed
+ORD-00583,2025-06-29,Tablet Stand Adjustable,1,22.99,completed
+ORD-00598,2025-06-29,Noise-Cancelling Headset,3,149.99,completed
+ORD-00036,2025-01-09,Blue Light Glasses,2,29.99,completed
+ORD-00432,2025-05-06,Mechanical Keyboard TKL,3,129.99,completed
+ORD-00225,2025-03-25,Cable Management Box,4,19.99,completed
+ORD-00108,2025-02-20,Desk Lamp LED,4,34.99,completed
+ORD-00541,2025-06-29,Cable Management Box,3,19.99,completed
+ORD-00439,2025-05-03,27-inch Monitor Stand,2,89.99,completed
+ORD-00093,2025-02-09,Portable Charger 20000mAh,4,44.99,completed
+ORD-00280,2025-04-10,Ergonomic Mouse,4,64.99,completed
+ORD-00001,2025-04-17,Laptop Sleeve 15in,1,24.99,completed
+ORD-00059,2025-01-20,Webcam 1080p,3,69.99,completed
+ORD-00187,2025-03-22,Noise-Cancelling Headset,1,149.99,completed
+ORD-00202,2025-03-15,Blue Light Glasses,4,29.99,completed
+ORD-00454,2025-05-20,Smart Power Strip,4,54.99,completed
+ORD-00511,2025-06-22,Monitor Privacy Filter,1,39.99,completed
+ORD-00560,2025-06-18,Laptop Sleeve 15in,3,24.99,completed
+ORD-00565,2025-06-04,Tablet Stand Adjustable,1,22.99,completed
+ORD-00628,2025-05-03,Mini Wireless Speaker,unknown,59.99,completed
+ORD-00343,2025-04-22,Ergonomic Mouse,4,64.99,completed
+ORD-00164,2025-02-03,Blue Light Glasses,5,29.99,completed
+ORD-00528,2025-06-10,Desk Lamp LED,4,34.99,returned
+ORD-00091,2025-02-04,27-inch Monitor Stand,2,89.99,completed
+ORD-00161,2025-02-05,Mechanical Keyboard TKL,2,129.99,completed
+ORD-00596,2025-06-25,Desk Lamp LED,1,34.99,completed
+ORD-00103,2025-02-09,Mini Wireless Speaker,1,59.99,completed
+ORD-00165,2025-02-25,Screen Cleaning Kit,1,9.99,completed
+ORD-00577,2025-06-05,Mechanical Keyboard TKL,1,129.99,completed
+ORD-00409,2025-05-22,Blue Light Glasses,1,29.99,completed
+ORD-00581,2025-06-10,Cable Management Box,3,19.99,completed
+ORD-00172,2025-03-26,Mechanical Keyboard TKL,1,129.99,completed
+ORD-00226,2025-03-06,Wrist Rest Pad,4,14.99,completed
+ORD-00169,2025-02-05,Mini Wireless Speaker,2,59.99,completed
+ORD-00334,2025-04-22,Cable Management Box,4,19.99,completed
+ORD-00171,2025-03-06,27-inch Monitor Stand,3,89.99,completed
+ORD-00203,2025-03-01,Wireless Earbuds Pro,5,79.99,completed
+ORD-00692,2028-04-23,Thermal Paste 5g,1,7.99,completed
+ORD-00156,2025-02-14,Blue Light Glasses,3,29.99,completed
+ORD-00540,2025-06-09,Blue Light Glasses,1,29.99,completed
+ORD-00420,2025-05-18,Blue Light Glasses,4,29.99,completed
+ORD-00235,2025-03-11,Tablet Stand Adjustable,4,22.99,completed
+ORD-00582,2025-06-12,27-inch Monitor Stand,3,89.99,completed
+ORD-00406,2025-05-24,Screen Cleaning Kit,3,9.99,completed
+ORD-00682,2028-05-13,Wireless Earbuds Pro,1,79.99,completed
+ORD-00711,2025.01.32,Portable Charger 20000mAh,1,44.99,completed
+ORD-00129,2025-02-27,Tablet Stand Adjustable,5,22.99,completed
+ORD-00666,2025-06-24,Ergonomic Mouse,1,-64.99,completed
+ORD-00437,2025-05-28,Laptop Sleeve 15in,2,24.99,completed
+ORD-00248,2025-03-29,Thermal Paste 5g,2,7.99,completed
+ORD-00448,2025-05-29,Thermal Paste 5g,3,7.99,refunded
+ORD-00216,2025-03-21,HDMI Cable 2m,1,12.99,completed
+ORD-00142,2025-02-16,USB-C Hub 7-Port,1,49.99,completed
+ORD-00476,2025-05-11,Screen Cleaning Kit,1,9.99,completed
+ORD-00086,2025-02-10,Noise-Cancelling Headset,1,149.99,refunded
+ORD-00705,01-JAN,USB-C Hub 7-Port,1,49.99,completed
+ORD-00671,2025-03-15,Portable Charger 20000mAh,1,-44.99,completed
+ORD-00253,2025-03-24,Mechanical Keyboard TKL,4,129.99,completed
+ORD-00636,2025-01-16,Noise-Cancelling Headset,unknown,149.99,completed
+ORD-00539,2025-06-16,Blue Light Glasses,2,29.99,completed
+ORD-00578,2025-06-14,Blue Light Glasses,4,29.99,completed
+ORD-00022,2025-03-25,Smart Power Strip,1,54.99,completed
+ORD-00532,2025-06-11,Ergonomic Mouse,1,64.99,refunded
+ORD-00378,2025-05-01,Noise-Cancelling Headset,4,149.99,completed
+ORD-00087,2025-02-03,Tablet Stand Adjustable,1,22.99,completed
+ORD-00267,2025-03-09,Ergonomic Mouse,1,64.99,completed
+ORD-00293,2025-04-11,Mini Wireless Speaker,2,59.99,completed
+ORD-00557,2025-06-06,27-inch Monitor Stand,4,89.99,completed
+ORD-00287,2025-04-17,Screen Cleaning Kit,4,9.99,completed
+ORD-00425,2025-05-02,Cable Management Box,1,19.99,completed
+ORD-00199,2025-03-10,Noise-Cancelling Headset,4,149.99,returned
+ORD-00019,2025-02-14,Portable Charger 20000mAh,1,44.99,completed
+ORD-00610,2025-04-04,Tablet Stand Adjustable,1,,completed
+ORD-00529,2025-06-20,Mechanical Keyboard TKL,5,129.99,completed
+ORD-00198,2025-03-04,Desk Lamp LED,5,34.99,refunded
+ORD-00167,2025-02-28,Blue Light Glasses,1,29.99,completed
+ORD-00307,2025-04-29,Cable Management Box,2,19.99,completed
+ORD-00690,2028-11-23,Ergonomic Mouse,1,64.99,completed
+ORD-00490,2025-06-09,Wrist Rest Pad,3,14.99,completed
+ORD-00395,2025-05-01,Smart Power Strip,2,54.99,returned
+ORD-00182,2025-03-09,Mini Wireless Speaker,5,59.99,completed
+ORD-00010,2025-05-15,Tablet Stand Adjustable,1,22.99,completed
+ORD-00014,2025-01-18,Tablet Stand Adjustable,3,22.99,completed
+ORD-00364,2025-04-08,Mechanical Keyboard TKL,1,129.99,completed
+ORD-00579,2025-06-05,Blue Light Glasses,2,29.99,completed
+ORD-00263,2025-03-16,Noise-Cancelling Headset,3,149.99,returned
+ORD-00285,2025-04-15,Thermal Paste 5g,2,7.99,completed
+ORD-00286,2025-04-29,Mechanical Keyboard TKL,4,129.99,completed
+ORD-00230,2025-03-30,Ergonomic Mouse,5,64.99,completed
+ORD-00221,2025-03-20,Tablet Stand Adjustable,4,22.99,completed
+ORD-00710,not-a-date,Blue Light Glasses,1,29.99,completed
+ORD-00045,2025-01-11,Wrist Rest Pad,4,14.99,completed
+ORD-00068,2025-01-13,Wrist Rest Pad,5,14.99,completed
+ORD-00617,2025-03-23,Thermal Paste 5g,1,,completed
+ORD-00014,2025-03-26,Ergonomic Mouse,1,64.99,completed
+ORD-00372,2025-05-18,Smart Power Strip,3,54.99,completed
+ORD-00228,2025-03-31,27-inch Monitor Stand,5,89.99,completed
+ORD-00158,2025-02-13,Thermal Paste 5g,1,7.99,completed
+ORD-00003,2025-01-01,Wireless Earbuds Pro,2,79.99,refunded
+ORD-00575,2025-06-19,Screen Cleaning Kit,4,9.99,completed
+ORD-00055,2025-01-04,Blue Light Glasses,2,29.99,refunded
+ORD-00716,yesterday,Smart Power Strip,1,54.99,completed
+ORD-00163,2025-02-16,Laptop Sleeve 15in,1,24.99,completed
+ORD-00023,2025-04-13,Mechanical Keyboard TKL,1,129.99,completed
+ORD-00498,2025-06-12,Mechanical Keyboard TKL,4,129.99,completed
+ORD-00401,2025-05-15,Noise-Cancelling Headset,4,149.99,refunded
+ORD-00471,2025-05-05,Thermal Paste 5g,1,7.99,completed
+ORD-00388,2025-05-07,Blue Light Glasses,3,29.99,completed
+ORD-00079,2025-01-07,Mini Wireless Speaker,1,59.99,completed
+ORD-00629,2025-06-11,Smart Power Strip,,54.99,completed
+ORD-00479,2025-05-30,Ergonomic Mouse,4,64.99,completed
+ORD-00038,2025-01-28,Mechanical Keyboard TKL,3,129.99,completed
+ORD-00366,2025-04-30,Mechanical Keyboard TKL,3,129.99,completed
+ORD-00127,2025-02-02,Wrist Rest Pad,2,14.99,completed
+ORD-00152,2025-02-18,Mechanical Keyboard TKL,2,129.99,completed
+ORD-00317,2025-04-07,Desk Lamp LED,5,34.99,completed
+ORD-00044,2025-01-14,Monitor Privacy Filter,5,39.99,completed
+ORD-00488,2025-06-07,Tablet Stand Adjustable,1,22.99,completed
+ORD-00624,2025-05-30,Monitor Privacy Filter,2,,completed
+ORD-00300,2025-04-01,HDMI Cable 2m,2,12.99,completed
+ORD-00349,2025-04-24,Desk Lamp LED,5,34.99,completed
+ORD-00096,2025-02-27,Ergonomic Mouse,2,64.99,completed
+ORD-00222,2025-03-07,Cable Management Box,2,19.99,completed
+ORD-00612,2025-05-09,Wrist Rest Pad,1,,completed
+ORD-00284,2025-04-12,Thermal Paste 5g,5,7.99,completed
+ORD-00698,2028-12-06,Tablet Stand Adjustable,1,22.99,completed
+ORD-00117,2025-02-09,Noise-Cancelling Headset,3,149.99,completed
+ORD-00562,2025-06-14,Screen Cleaning Kit,1,9.99,completed
+ORD-00639,2025-04-07,Smart Power Strip,?,54.99,completed
+ORD-00140,2025-02-07,Laptop Sleeve 15in,3,24.99,completed
+ORD-00325,2025-04-16,Cable Management Box,5,19.99,completed
+ORD-00604,2025-05-22,Desk Lamp LED,2,,completed
+ORD-00168,2025-02-04,Webcam 1080p,3,69.99,completed
+ORD-00397,2025-05-09,27-inch Monitor Stand,2,89.99,completed
+ORD-00656,2025-03-11,Tablet Stand Adjustable,1,-22.99,completed
+ORD-00305,2025-04-08,Mechanical Keyboard TKL,5,129.99,completed
+ORD-00315,2025-04-22,Monitor Privacy Filter,5,39.99,completed
+ORD-00394,2025-05-13,Smart Power Strip,1,54.99,completed
+ORD-00668,2025-02-10,Tablet Stand Adjustable,1,-22.99,completed
+ORD-00175,2025-03-20,Ergonomic Mouse,4,64.99,completed
+ORD-00456,2025-05-14,HDMI Cable 2m,1,12.99,completed
+ORD-00119,2025-02-23,HDMI Cable 2m,3,12.99,completed
+ORD-00548,2025-06-27,Mini Wireless Speaker,3,59.99,completed
+ORD-00051,2025-01-11,Blue Light Glasses,2,29.99,completed
+ORD-00028,2025-01-23,Wrist Rest Pad,3,14.99,completed
+ORD-00178,2025-03-13,Blue Light Glasses,1,29.99,completed
+ORD-00382,2025-05-28,USB-C Hub 7-Port,4,49.99,completed
+ORD-00257,2025-03-25,Noise-Cancelling Headset,1,149.99,completed
+ORD-00509,2025-06-17,Noise-Cancelling Headset,3,149.99,completed
+ORD-00371,2025-04-28,Screen Cleaning Kit,5,9.99,completed
+ORD-00652,2025-03-30,Mechanical Keyboard TKL,1,-129.99,completed
+ORD-00405,2025-05-31,Mechanical Keyboard TKL,4,129.99,completed
+ORD-00072,2025-01-27,Tablet Stand Adjustable,5,22.99,completed
+ORD-00379,2025-05-03,27-inch Monitor Stand,4,89.99,completed
+ORD-00615,2025-02-08,Blue Light Glasses,3,,completed
+ORD-00522,2025-06-29,Laptop Sleeve 15in,1,24.99,completed
+ORD-00473,2025-05-21,27-inch Monitor Stand,5,89.99,refunded
+ORD-00277,2025-04-23,Webcam 1080p,4,69.99,completed
+ORD-00347,2025-04-02,Portable Charger 20000mAh,2,44.99,completed
+ORD-00200,2025-03-14,USB-C Hub 7-Port,2,49.99,completed
+ORD-00569,2025-06-29,Mini Wireless Speaker,1,59.99,completed
+ORD-00709,01-JAN,Cable Management Box,1,19.99,completed
+ORD-00124,2025-02-27,Webcam 1080p,4,69.99,completed
+ORD-00452,2025-05-20,Mini Wireless Speaker,4,59.99,completed
+ORD-00084,2025-02-08,Wrist Rest Pad,3,14.99,refunded
+ORD-00531,2025-06-23,Cable Management Box,3,19.99,completed
+ORD-00040,2025-01-25,Webcam 1080p,3,69.99,completed
+ORD-00584,2025-06-30,Webcam 1080p,4,69.99,completed
+ORD-00521,2025-06-04,Wrist Rest Pad,3,14.99,completed
+ORD-00365,2025-04-28,Laptop Sleeve 15in,5,24.99,completed
+ORD-00421,2025-05-02,Smart Power Strip,5,54.99,completed
+ORD-00644,2025-03-18,Tablet Stand Adjustable,unknown,22.99,completed
+ORD-00074,2025-01-20,HDMI Cable 2m,4,12.99,completed
+ORD-00301,2025-04-03,Blue Light Glasses,1,29.99,completed
+ORD-00107,2025-02-03,Noise-Cancelling Headset,1,149.99,completed
+ORD-00009,2025-01-24,Webcam 1080p,2,69.99,completed
+ORD-00162,2025-02-17,Laptop Sleeve 15in,5,24.99,completed
+ORD-00436,2025-05-03,Wireless Earbuds Pro,3,79.99,completed
+ORD-00092,2025-02-13,Noise-Cancelling Headset,1,149.99,completed
+ORD-00600,2025-06-14,27-inch Monitor Stand,3,89.99,refunded
+ORD-00337,2025-04-14,HDMI Cable 2m,3,12.99,completed
+ORD-00289,2025-04-04,Screen Cleaning Kit,4,9.99,completed
+ORD-00279,2025-04-23,Wireless Earbuds Pro,3,79.99,completed
+ORD-00552,2025-06-11,Monitor Privacy Filter,4,39.99,completed
+ORD-00499,2025-06-10,Screen Cleaning Kit,2,9.99,completed
+ORD-00039,2025-01-01,Thermal Paste 5g,3,7.99,completed
+ORD-00691,2028-07-07,Screen Cleaning Kit,1,9.99,completed
+ORD-00715,2025/99/99,Blue Light Glasses,1,29.99,completed
+ORD-00641,2025-05-20,Cable Management Box,?,19.99,completed
+ORD-00291,2025-04-08,27-inch Monitor Stand,4,89.99,completed
+ORD-00455,2025-05-03,Portable Charger 20000mAh,5,44.99,completed
+ORD-00680,2028-06-03,Cable Management Box,1,19.99,completed
+ORD-00445,2025-05-13,Thermal Paste 5g,2,7.99,refunded
+ORD-00462,2025-05-30,Mechanical Keyboard TKL,2,129.99,completed
+ORD-00109,2025-02-21,27-inch Monitor Stand,4,89.99,completed
+ORD-00118,2025-02-21,Noise-Cancelling Headset,2,149.99,completed
+ORD-00022,2025-01-08,Monitor Privacy Filter,1,39.99,completed
+ORD-00271,2025-04-14,Monitor Privacy Filter,2,39.99,completed
+ORD-00459,2025-05-19,Screen Cleaning Kit,1,9.99,returned
+ORD-00653,2025-06-17,Blue Light Glasses,1,-29.99,completed
+ORD-00494,2025-06-29,Cable Management Box,2,19.99,completed
+ORD-00504,2025-06-23,Desk Lamp LED,1,34.99,completed
+ORD-00170,2025-02-21,Ergonomic Mouse,5,64.99,completed
+ORD-00402,2025-05-10,Mini Wireless Speaker,5,59.99,completed
+ORD-00331,2025-04-07,Ergonomic Mouse,1,64.99,completed
+ORD-00016,2025-02-17,HDMI Cable 2m,1,12.99,completed
+ORD-00433,2025-05-02,Wrist Rest Pad,3,14.99,completed
+ORD-00256,2025-03-03,Screen Cleaning Kit,2,9.99,completed
+ORD-00043,2025-01-23,Thermal Paste 5g,1,7.99,completed
+ORD-00088,2025-02-28,Webcam 1080p,1,69.99,returned
+ORD-00360,2025-04-14,Smart Power Strip,2,54.99,completed
+ORD-00005,2025-01-09,Webcam 1080p,3,69.99,completed
+ORD-00649,2025-04-08,Tablet Stand Adjustable,one,22.99,completed
+ORD-00029,2025-01-21,27-inch Monitor Stand,2,89.99,completed
+ORD-00244,2025-03-10,27-inch Monitor Stand,2,89.99,completed
+ORD-00678,2028-04-30,Wrist Rest Pad,1,14.99,completed
+ORD-00677,2028-05-13,Wireless Earbuds Pro,1,79.99,completed
+ORD-00611,2025-06-04,Portable Charger 20000mAh,3,,completed
+ORD-00506,2025-06-20,Desk Lamp LED,4,34.99,completed
+ORD-00048,2025-01-07,Monitor Privacy Filter,2,39.99,completed
+ORD-00530,2025-06-07,Smart Power Strip,3,54.99,completed
+ORD-00563,2025-06-18,Portable Charger 20000mAh,5,44.99,completed
+ORD-00333,2025-04-04,Blue Light Glasses,2,29.99,completed
+ORD-00440,2025-05-20,Screen Cleaning Kit,1,9.99,completed
+ORD-00335,2025-04-14,Monitor Privacy Filter,1,39.99,completed
+ORD-00042,2025-01-06,USB-C Hub 7-Port,2,49.99,completed
+ORD-00686,2028-03-22,Screen Cleaning Kit,1,9.99,completed
+ORD-00634,2025-06-26,Monitor Privacy Filter,unknown,39.99,completed
+ORD-00351,2025-04-26,Webcam 1080p,4,69.99,completed
+ORD-00154,2025-02-24,Thermal Paste 5g,5,7.99,completed
+ORD-00676,2028-05-07,Cable Management Box,1,19.99,completed
+ORD-00700,2028-02-11,Thermal Paste 5g,1,7.99,completed
+ORD-00125,2025-02-25,Noise-Cancelling Headset,4,149.99,completed
+ORD-00593,2025-06-22,Noise-Cancelling Headset,1,149.99,completed
+ORD-00564,2025-06-01,27-inch Monitor Stand,3,89.99,completed
+ORD-00208,2025-03-09,27-inch Monitor Stand,4,89.99,completed
+ORD-00492,2025-06-30,Desk Lamp LED,2,34.99,refunded
+ORD-00192,2025-03-18,Wrist Rest Pad,5,14.99,completed
+ORD-00614,2025-05-02,Cable Management Box,3,,completed
+ORD-00204,2025-03-31,Laptop Sleeve 15in,3,24.99,completed
+ORD-00408,2025-05-18,Mechanical Keyboard TKL,3,129.99,completed
+ORD-00274,2025-04-18,Laptop Sleeve 15in,3,24.99,completed
+ORD-00363,2025-04-15,Cable Management Box,5,19.99,completed
+ORD-00259,2025-03-25,Mini Wireless Speaker,3,59.99,completed
+ORD-00197,2025-03-11,USB-C Hub 7-Port,2,49.99,completed
+ORD-00640,2025-04-28,Laptop Sleeve 15in,,24.99,completed
+ORD-00646,2025-03-23,Noise-Cancelling Headset,one,149.99,completed
+ORD-00099,2025-02-12,Wrist Rest Pad,4,14.99,completed
+ORD-00110,2025-02-06,Smart Power Strip,3,54.99,completed
+ORD-00184,2025-03-28,Laptop Sleeve 15in,4,24.99,completed
+ORD-00441,2025-05-03,Tablet Stand Adjustable,5,22.99,completed
+ORD-00515,2025-06-30,Screen Cleaning Kit,3,9.99,completed
+ORD-00585,2025-06-26,HDMI Cable 2m,4,12.99,completed
+ORD-00718,01-JAN,USB-C Hub 7-Port,1,49.99,completed
+ORD-00713,01-JAN,Mechanical Keyboard TKL,1,129.99,completed
+ORD-00018,2025-01-02,Desk Lamp LED,3,34.99,completed
+ORD-00013,2025-01-29,Smart Power Strip,4,54.99,completed
+ORD-00422,2025-05-24,Desk Lamp LED,3,34.99,completed
+ORD-00544,2025-06-02,Laptop Sleeve 15in,3,24.99,completed
+ORD-00572,2025-06-02,Portable Charger 20000mAh,5,44.99,completed
+ORD-00500,2025-06-06,Portable Charger 20000mAh,1,44.99,completed
+ORD-00495,2025-06-03,Desk Lamp LED,5,34.99,completed
+ORD-00722,not-a-date,HDMI Cable 2m,1,12.99,completed
+ORD-00383,2025-05-08,Blue Light Glasses,1,29.99,completed
+ORD-00467,2025-05-11,Wireless Earbuds Pro,3,79.99,completed
+ORD-00518,2025-06-29,USB-C Hub 7-Port,3,49.99,completed
+ORD-00224,2025-03-12,Webcam 1080p,4,69.99,completed
+ORD-00010,2025-01-04,Portable Charger 20000mAh,4,44.99,completed
+ORD-00155,2025-02-19,Smart Power Strip,4,54.99,completed
+ORD-00070,2025-01-18,Noise-Cancelling Headset,1,149.99,completed
+ORD-00237,2025-03-01,Thermal Paste 5g,1,7.99,completed
+ORD-00141,2025-02-21,Tablet Stand Adjustable,2,22.99,completed
+ORD-00633,2025-04-18,Cable Management Box,unknown,19.99,completed
+ORD-00007,2025-01-08,Noise-Cancelling Headset,2,149.99,completed
+ORD-00012,2025-04-30,Smart Power Strip,1,54.99,completed
+ORD-00077,2025-01-12,27-inch Monitor Stand,5,89.99,completed
+ORD-00688,2028-12-26,Smart Power Strip,1,54.99,completed
+ORD-00537,2025-06-09,Screen Cleaning Kit,4,9.99,completed
+ORD-00061,2025-01-26,HDMI Cable 2m,3,12.99,completed
+ORD-00643,2025-03-05,Portable Charger 20000mAh,?,44.99,completed
+ORD-00687,2028-12-17,Wrist Rest Pad,1,14.99,completed
+ORD-00704,not-a-date,Mini Wireless Speaker,1,59.99,completed
+ORD-00174,2025-03-14,Mini Wireless Speaker,3,59.99,completed
+ORD-00361,2025-04-06,Monitor Privacy Filter,4,39.99,completed
+ORD-00173,2025-03-22,Screen Cleaning Kit,5,9.99,refunded
+ORD-00681,2028-10-20,Mini Wireless Speaker,1,59.99,completed
+ORD-00503,2025-06-18,USB-C Hub 7-Port,2,49.99,completed
+ORD-00501,2025-06-15,Screen Cleaning Kit,5,9.99,completed
+ORD-00264,2025-03-31,Webcam 1080p,5,69.99,completed
+ORD-00346,2025-04-04,Ergonomic Mouse,5,64.99,completed
+ORD-00512,2025-06-27,Thermal Paste 5g,2,7.99,completed
+ORD-00252,2025-03-03,Screen Cleaning Kit,5,9.99,completed
+ORD-00684,2028-02-01,Webcam 1080p,1,69.99,completed
+ORD-00683,2028-12-20,Desk Lamp LED,1,34.99,completed
+ORD-00338,2025-04-14,Noise-Cancelling Headset,1,149.99,completed
+ORD-00201,2025-03-06,Tablet Stand Adjustable,2,22.99,completed
+ORD-00157,2025-02-19,Monitor Privacy Filter,3,39.99,completed
+ORD-00303,2025-04-21,USB-C Hub 7-Port,3,49.99,completed
+ORD-00428,2025-05-17,Thermal Paste 5g,2,7.99,completed
+ORD-00567,2025-06-29,27-inch Monitor Stand,2,89.99,completed
+ORD-00587,2025-06-02,Screen Cleaning Kit,4,9.99,completed
+ORD-00021,2025-04-20,Wrist Rest Pad,1,14.99,completed
+ORD-00150,2025-02-24,Mini Wireless Speaker,1,59.99,completed
+ORD-00665,2025-05-01,Cable Management Box,1,-19.99,completed
+ORD-00047,2025-01-05,Wireless Earbuds Pro,1,79.99,returned
+ORD-00664,2025-04-16,Ergonomic Mouse,1,-64.99,completed
+ORD-00321,2025-04-30,Wireless Earbuds Pro,1,79.99,completed
+ORD-00621,2025-05-25,Noise-Cancelling Headset,2,,completed
+ORD-00625,2025-06-02,Wireless Earbuds Pro,2,,completed
+ORD-00328,2025-04-16,Cable Management Box,4,19.99,completed
+ORD-00481,2025-05-01,Smart Power Strip,5,54.99,completed
+ORD-00101,2025-02-07,Webcam 1080p,1,69.99,completed
+ORD-00591,2025-06-22,Laptop Sleeve 15in,4,24.99,completed
+ORD-00510,2025-06-01,HDMI Cable 2m,1,12.99,refunded
+ORD-00526,2025-06-05,Mini Wireless Speaker,1,59.99,completed
+ORD-00369,2025-04-26,Portable Charger 20000mAh,5,44.99,completed
+ORD-00268,2025-04-17,Blue Light Glasses,1,29.99,completed
+ORD-00316,2025-04-16,Mechanical Keyboard TKL,4,129.99,completed
+ORD-00368,2025-04-15,Blue Light Glasses,4,29.99,completed
+ORD-00547,2025-06-14,Wireless Earbuds Pro,3,79.99,completed
+ORD-00478,2025-05-25,Thermal Paste 5g,4,7.99,completed
+ORD-00390,2025-05-13,Monitor Privacy Filter,5,39.99,completed
+ORD-00290,2025-04-08,Ergonomic Mouse,2,64.99,completed
+ORD-00330,2025-04-14,Smart Power Strip,5,54.99,completed
+ORD-00566,2025-06-03,Laptop Sleeve 15in,5,24.99,completed
+ORD-00246,2025-03-02,Laptop Sleeve 15in,2,24.99,completed
+ORD-00407,2025-05-26,USB-C Hub 7-Port,3,49.99,completed
+ORD-00210,2025-03-25,HDMI Cable 2m,4,12.99,completed
+ORD-00627,2025-02-28,Mini Wireless Speaker,N/A,59.99,completed
+ORD-00608,2025-02-02,Ergonomic Mouse,1,,completed
+ORD-00121,2025-02-08,Wireless Earbuds Pro,5,79.99,completed
+ORD-00195,2025-03-25,Wrist Rest Pad,5,14.99,completed
+ORD-00217,2025-03-10,Screen Cleaning Kit,5,9.99,completed
+ORD-00016,2025-01-19,Mini Wireless Speaker,3,59.99,completed
+ORD-00311,2025-04-03,Wireless Earbuds Pro,2,79.99,completed
+ORD-00341,2025-04-24,Tablet Stand Adjustable,1,22.99,completed
+ORD-00214,2025-03-04,27-inch Monitor Stand,1,89.99,completed
+ORD-00491,2025-06-05,Wireless Earbuds Pro,3,79.99,completed
+ORD-00005,2025-01-03,USB-C Hub 7-Port,1,49.99,completed
+ORD-00573,2025-06-27,Thermal Paste 5g,1,7.99,completed
+ORD-00602,2025-04-13,USB-C Hub 7-Port,1,,completed
+ORD-00193,2025-03-25,Blue Light Glasses,1,29.99,completed
+ORD-00075,2025-01-29,Wireless Earbuds Pro,4,79.99,completed
+ORD-00041,2025-01-26,Portable Charger 20000mAh,2,44.99,completed
+ORD-00708,2025/99/99,27-inch Monitor Stand,1,89.99,completed
+ORD-00275,2025-04-25,Screen Cleaning Kit,3,9.99,completed
+ORD-00053,2025-01-03,Cable Management Box,4,19.99,completed
+ORD-00196,2025-03-21,Tablet Stand Adjustable,4,22.99,completed
+ORD-00549,2025-06-09,Tablet Stand Adjustable,2,22.99,completed
+ORD-00095,2025-02-21,Thermal Paste 5g,5,7.99,refunded
+ORD-00380,2025-05-30,Webcam 1080p,5,69.99,completed
+ORD-00461,2025-05-11,Smart Power Strip,2,54.99,completed
+ORD-00081,2025-01-03,Laptop Sleeve 15in,1,24.99,completed
+ORD-00339,2025-04-15,Mechanical Keyboard TKL,1,129.99,completed
+ORD-00209,2025-03-17,Screen Cleaning Kit,5,9.99,completed
+ORD-00262,2025-03-22,Mini Wireless Speaker,1,59.99,completed
+ORD-00249,2025-03-19,Mini Wireless Speaker,2,59.99,completed
+ORD-00398,2025-05-30,27-inch Monitor Stand,3,89.99,completed
+ORD-00138,2025-02-23,Screen Cleaning Kit,1,9.99,completed
+ORD-00543,2025-06-28,Screen Cleaning Kit,3,9.99,completed
+ORD-00660,2025-03-03,Mini Wireless Speaker,1,-59.99,completed
+ORD-00648,2025-02-01,Screen Cleaning Kit,,9.99,completed
+ORD-00423,2025-05-11,Wrist Rest Pad,4,14.99,returned
+ORD-00576,2025-06-18,Wrist Rest Pad,3,14.99,completed
+ORD-00060,2025-01-09,Mechanical Keyboard TKL,3,129.99,completed
+ORD-00689,2028-12-19,Screen Cleaning Kit,1,9.99,completed
+ORD-00148,2025-02-05,Noise-Cancelling Headset,1,149.99,completed
+ORD-00645,2025-03-15,Screen Cleaning Kit,unknown,9.99,completed
+ORD-00231,2025-03-17,Wireless Earbuds Pro,2,79.99,completed
+ORD-00020,2025-06-13,Thermal Paste 5g,1,7.99,completed
+ORD-00485,2025-06-04,Laptop Sleeve 15in,1,24.99,completed
+ORD-00697,2028-08-29,Tablet Stand Adjustable,1,22.99,completed
+ORD-00189,2025-03-04,Cable Management Box,1,19.99,completed
+ORD-00386,2025-05-16,Ergonomic Mouse,4,64.99,completed
+ORD-00663,2025-01-14,Webcam 1080p,1,-69.99,completed
+ORD-00153,2025-02-09,Tablet Stand Adjustable,4,22.99,completed
+ORD-00717,01-JAN,Blue Light Glasses,1,29.99,completed
+ORD-00427,2025-05-16,Wrist Rest Pad,3,14.99,completed
+ORD-00673,2025-01-23,USB-C Hub 7-Port,1,-49.99,completed
+ORD-00538,2025-06-17,Ergonomic Mouse,2,64.99,completed
+ORD-00391,2025-05-29,Smart Power Strip,1,54.99,completed
+ORD-00353,2025-04-04,Tablet Stand Adjustable,1,22.99,completed
+ORD-00049,2025-01-31,Smart Power Strip,4,54.99,completed
+ORD-00508,2025-06-21,Laptop Sleeve 15in,4,24.99,completed
+ORD-00570,2025-06-05,Mechanical Keyboard TKL,1,129.99,completed
+ORD-00438,2025-05-06,Noise-Cancelling Headset,2,149.99,completed
+ORD-00642,2025-06-06,HDMI Cable 2m,one,12.99,completed
+ORD-00180,2025-03-15,Cable Management Box,5,19.99,completed
+ORD-00606,2025-05-21,Blue Light Glasses,2,,completed
+ORD-00571,2025-06-18,Mini Wireless Speaker,3,59.99,completed
+ORD-00063,2025-01-24,27-inch Monitor Stand,2,89.99,completed
+ORD-00282,2025-04-22,Desk Lamp LED,1,34.99,completed
+ORD-00308,2025-04-02,Wireless Earbuds Pro,3,79.99,completed
+ORD-00424,2025-05-02,Cable Management Box,5,19.99,completed
+ORD-00227,2025-03-18,27-inch Monitor Stand,4,89.99,completed
+ORD-00534,2025-06-22,Wrist Rest Pad,5,14.99,completed
+ORD-00147,2025-02-09,Laptop Sleeve 15in,1,24.99,completed
+ORD-00310,2025-04-11,Laptop Sleeve 15in,1,24.99,completed
+ORD-00243,2025-03-26,Desk Lamp LED,3,34.99,completed
+ORD-00329,2025-04-26,Smart Power Strip,3,54.99,completed
+ORD-00013,2025-02-19,HDMI Cable 2m,1,12.99,completed
+ORD-00592,2025-06-08,Blue Light Glasses,4,29.99,completed
+ORD-00327,2025-04-26,Thermal Paste 5g,5,7.99,completed
+ORD-00590,2025-06-07,Cable Management Box,2,19.99,returned
+ORD-00007,2025-01-28,Thermal Paste 5g,1,7.99,completed
+ORD-00297,2025-04-08,Blue Light Glasses,2,29.99,completed
+ORD-00516,2025-06-22,Thermal Paste 5g,4,7.99,completed
+ORD-00144,2025-02-21,Noise-Cancelling Headset,1,149.99,completed
+ORD-00058,2025-01-12,Smart Power Strip,4,54.99,completed
+ORD-00223,2025-03-05,Webcam 1080p,5,69.99,completed
+ORD-00703,not-a-date,Desk Lamp LED,1,34.99,completed
+ORD-00240,2025-03-12,Ergonomic Mouse,4,64.99,completed
+ORD-00450,2025-05-08,Webcam 1080p,3,69.99,completed
+ORD-00412,2025-05-05,Smart Power Strip,4,54.99,completed
+ORD-00046,2025-01-09,Webcam 1080p,2,69.99,completed
+ORD-00251,2025-03-03,HDMI Cable 2m,1,12.99,completed
+ORD-00050,2025-01-25,Tablet Stand Adjustable,2,22.99,completed
+ORD-00613,2025-01-10,USB-C Hub 7-Port,1,,completed
+ORD-00458,2025-05-19,Ergonomic Mouse,5,64.99,completed
+ORD-00035,2025-01-19,Cable Management Box,4,19.99,completed
+ORD-00609,2025-04-06,Wrist Rest Pad,2,,completed
+ORD-00104,2025-02-23,Tablet Stand Adjustable,4,22.99,completed
+ORD-00069,2025-01-03,Wireless Earbuds Pro,5,79.99,completed
+ORD-00212,2025-03-17,Tablet Stand Adjustable,2,22.99,completed
+ORD-00247,2025-03-08,Mechanical Keyboard TKL,5,129.99,completed
+ORD-00017,2025-01-14,Ergonomic Mouse,5,64.99,completed
+ORD-00630,2025-02-07,Wrist Rest Pad,unknown,14.99,completed
+ORD-00430,2025-05-28,27-inch Monitor Stand,3,89.99,completed
+ORD-00002,2025-01-10,Laptop Sleeve 15in,1,24.99,completed
+ORD-00719,2025.01.32,Blue Light Glasses,1,29.99,completed
+ORD-00116,2025-02-13,Wrist Rest Pad,3,14.99,completed
+ORD-00194,2025-03-09,HDMI Cable 2m,3,12.99,completed
+ORD-00283,2025-04-21,Webcam 1080p,4,69.99,completed
+ORD-00159,2025-02-12,Ergonomic Mouse,2,64.99,completed
+ORD-00355,2025-04-07,HDMI Cable 2m,3,12.99,completed
+ORD-00472,2025-05-22,Wireless Earbuds Pro,3,79.99,completed
+ORD-00254,2025-03-16,Mini Wireless Speaker,3,59.99,completed
+ORD-00236,2025-03-16,Noise-Cancelling Headset,5,149.99,completed
+ORD-00389,2025-05-28,Monitor Privacy Filter,1,39.99,completed
+ORD-00545,2025-06-03,Webcam 1080p,1,69.99,completed
+ORD-00435,2025-05-17,Monitor Privacy Filter,5,39.99,completed
+ORD-00558,2025-06-24,USB-C Hub 7-Port,1,49.99,completed
+ORD-00015,2025-04-28,Laptop Sleeve 15in,1,24.99,completed
+ORD-00475,2025-05-15,Ergonomic Mouse,3,64.99,completed
+ORD-00306,2025-04-03,Mini Wireless Speaker,2,59.99,completed
+ORD-00024,2025-01-20,Monitor Privacy Filter,1,39.99,completed
+ORD-00004,2025-01-24,Cable Management Box,4,19.99,completed
+ORD-00229,2025-03-25,Cable Management Box,1,19.99,completed
+ORD-00131,2025-02-26,Desk Lamp LED,4,34.99,completed
+ORD-00542,2025-06-30,Mechanical Keyboard TKL,5,129.99,completed
+ORD-00403,2025-05-14,Mini Wireless Speaker,5,59.99,completed
+ORD-00551,2025-06-01,Wrist Rest Pad,4,14.99,completed
+ORD-00183,2025-03-18,HDMI Cable 2m,5,12.99,completed
+ORD-00122,2025-02-22,Mechanical Keyboard TKL,2,129.99,refunded
+ORD-00357,2025-04-18,27-inch Monitor Stand,5,89.99,completed
+ORD-00670,2025-05-03,Noise-Cancelling Headset,1,-149.99,completed
+ORD-00137,2025-02-19,Mini Wireless Speaker,5,59.99,completed
+ORD-00553,2025-06-25,Mechanical Keyboard TKL,2,129.99,completed
+ORD-00003,2025-05-07,Wrist Rest Pad,1,14.99,completed
+ORD-00025,2025-05-03,27-inch Monitor Stand,1,89.99,completed
+ORD-00083,2025-02-22,Blue Light Glasses,3,29.99,completed
+ORD-00385,2025-05-14,Wrist Rest Pad,4,14.99,completed
+ORD-00387,2025-05-16,Cable Management Box,2,19.99,completed
+ORD-00460,2025-05-17,Laptop Sleeve 15in,3,24.99,completed
+ORD-00392,2025-05-02,Screen Cleaning Kit,3,9.99,completed
+ORD-00384,2025-05-06,Mini Wireless Speaker,4,59.99,completed
+ORD-00431,2025-05-17,Wrist Rest Pad,2,14.99,completed
+ORD-00662,2025-02-27,Smart Power Strip,1,-54.99,completed
+ORD-00657,2025-06-28,Tablet Stand Adjustable,1,-22.99,completed
+ORD-00139,2025-02-11,Screen Cleaning Kit,2,9.99,completed
+ORD-00185,2025-03-31,Blue Light Glasses,3,29.99,completed
+ORD-00419,2025-05-24,Laptop Sleeve 15in,1,24.99,completed
+ORD-00294,2025-04-01,Ergonomic Mouse,4,64.99,completed
+ORD-00033,2025-01-08,Screen Cleaning Kit,2,9.99,completed
+ORD-00484,2025-06-19,Webcam 1080p,5,69.99,completed
+ORD-00071,2025-01-10,Screen Cleaning Kit,4,9.99,completed
+ORD-00062,2025-01-02,Tablet Stand Adjustable,1,22.99,completed
+ORD-00555,2025-06-21,Smart Power Strip,3,54.99,completed
+ORD-00066,2025-01-04,Tablet Stand Adjustable,4,22.99,completed
+ORD-00693,2028-03-09,Webcam 1080p,1,69.99,completed

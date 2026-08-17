@@ -1,0 +1,43 @@
+# Continuous integration for sales-report-automator
+#
+# Every push and pull request runs the full test suite on three Python versions.
+# The README states "Python 3.9+", so the matrix has to actually prove 3.9 works
+# rather than asserting it. The green badge this produces is the only claim in
+# the README that a reader can verify without installing anything.
+
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: pytest (Python ${{ matrix.python-version }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ['3.9', '3.11', '3.12']
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run test suite
+        run: python -m pytest -q
+
+      - name: Run the shipped demo end to end
+        run: python -m reporter --demo
