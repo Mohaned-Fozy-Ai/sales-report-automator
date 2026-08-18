@@ -131,7 +131,7 @@ Measured: **59 tests passing** (Python 3.9.25 — unit tests for loader, validat
 Mohaned Mohamed Fozy — Python automation & AI integration. Cairo, Egypt.
 
 GitHub: https://github.com/Mohaned-Fozy-Ai
-<!-- FILL: LinkedIn URL -->
+LinkedIn: https://www.linkedin.com/in/mohaned-fozy-automation
 
 ## License
 
